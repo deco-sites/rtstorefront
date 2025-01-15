@@ -39,16 +39,18 @@
         "title": "You may also like",
         "products": {
           "__resolveType": "shopify/loaders/ProductList.ts",
-          "props": {
-            "sort": "",
-            "query": "a",
-            "count": 9
-          },
           "filters": {
             "tags": [],
             "productTypes": [],
-            "productVendors": [],
+            "productVendors": [
+              "Rituaali"
+            ],
             "variantOptions": []
+          },
+          "props": {
+            "sort": "",
+            "query": "Rituaali",
+            "count": 5
           }
         }
       }
